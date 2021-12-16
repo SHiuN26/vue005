@@ -13,6 +13,14 @@
 <body>
     <div class="" id="app">
         <h1>使用v-on 呼叫 / method寫function 建立js物件 </h1>
+        <div class="fruit" v-for="(id,fruit) in fruits">
+            <div class="name">
+                {{id+1}}.{{fruit}}
+            </div>
+            <img v-if="fruit=='pen'" src="http://simpleicon.com/wp-content/uploads/pen-15.png" alt="">
+            <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/181946-200.png" alt="">
+            <img src="https://www.pnglogos.com/images/other/apple.svg" alt="">
+        </div>
     </div>
 </body>
 </html>
